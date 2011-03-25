@@ -11,9 +11,16 @@
 
 #import <UIKit/UIKit.h>
 #import "TwitterRushViewController.h"
+#import "MGTwitterEngine.h"
+#import "XMLParser.h"
+#import "AsyncImageView.h"
 
-@interface TwitterViewController : UIViewController {
+@interface TwitterViewController : UIViewController<UITableViewDelegate,UITableViewDataSource> {
 	IBOutlet UIButton *buttonToTwit;
+    TreeNode *root;
+    IBOutlet UITableView *_tableView;
 }
 -(IBAction)clickToTwit:(id)sender;
+-(void)friends_timeline_callback:(NSData *)data;
+
 @end

@@ -114,7 +114,7 @@
 #if YAJL_AVAILABLE
 		_deliveryOptions = MGTwitterEngineDeliveryAllResultsOption;
 #endif
-    }
+    }   
     
     return self;
 }

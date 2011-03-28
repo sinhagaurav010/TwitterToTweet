@@ -14,13 +14,22 @@
 #import "MGTwitterEngine.h"
 #import "XMLParser.h"
 #import "AsyncImageView.h"
+#import "TwitterRequest.h"
+
+#import "TwitterViewController.h"
 
 @interface TwitterViewController : UIViewController<UITableViewDelegate,UITableViewDataSource> {
 	IBOutlet UIButton *buttonToTwit;
+    TwitterRequest *tr;
     TreeNode *root;
+    BOOL _fromTweet;
     IBOutlet UITableView *_tableView;
 }
+
+@property(nonatomic,assign)BOOL _fromTweet;
 -(IBAction)clickToTwit:(id)sender;
 -(void)friends_timeline_callback:(NSData *)data;
+-(void)timeLineFunction;
+
 
 @end

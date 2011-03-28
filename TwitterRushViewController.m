@@ -55,11 +55,11 @@
 	if ([[NSUserDefaults standardUserDefaults] objectForKey: @"authData2"]) {
 		NSLog(@"auth%@",[[NSUserDefaults standardUserDefaults] objectForKey: @"authData2"]);
 		UIBarButtonItem *sendButton = [[UIBarButtonItem alloc]initWithTitle:@"Send" style:UIBarButtonItemStyleBordered target:self action:@selector(sendTweet)];
-		self.navigationItem.leftBarButtonItem = sendButton;
+		self.navigationItem.rightBarButtonItem = sendButton;
 	}
 	else {
 		UIBarButtonItem *loginButton = [[UIBarButtonItem alloc]initWithTitle:@"Login to Twitter" style:UIBarButtonItemStyleBordered target:self action:@selector(login)];
-		self.navigationItem.leftBarButtonItem = loginButton;
+		self.navigationItem.rightBarButtonItem = loginButton;
 	}
 
 	//UIBarButtonItem *cancelButton = [[UIBarButtonItem alloc]initWithTitle:@"cancel" style:UIBarButtonItemStyleBordered target:self action:@selector(cancelButton)];
@@ -84,7 +84,8 @@
 	if (controller){
 	[self presentModalViewController: controller animated: YES];
 	}
-		if (!controller) {
+		if (!controller) 
+        {
 			spinner = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhiteLarge];
 			[spinner setCenter:CGPointMake(kScreenWidth/2.0, kScreenHeight/2.0)]; // I do this because I'm in landscape mode
 			[self.view addSubview:spinner]; // spinner is not visible until started
@@ -99,7 +100,8 @@
 }
 
 /////////////////////////////////
--(void)cancelButton{	
+-(void)cancelButton
+{	
 	[self.navigationController dismissModalViewControllerAnimated:YES];
 }
 
@@ -136,7 +138,6 @@
 #pragma mark SA_OAuthTwitterEngineDelegate
 - (void) storeCachedTwitterOAuthData: (NSString *) data forUsername: (NSString *) username {
 	NSUserDefaults			*defaults = [NSUserDefaults standardUserDefaults];
-	
 	[defaults setObject: data forKey: @"authData2"];
 	[defaults synchronize];
 	
@@ -153,8 +154,12 @@
 //=============================================================================================================================
 #pragma mark TwitterEngineDelegate
 - (void) requestSucceeded: (NSString *) requestIdentifier {
+    NSLog(@"NSSteing%@",requestIdentifier);
 	if([spinner isAnimating])
 	[spinner stopAnimating];
+    TwitterViewController *TwitterController = [[TwitterViewController alloc]init];
+    TwitterController._fromTweet = 1;
+    [TwitterController release];
 	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Info" message:@"Succeeded" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
 	[alert show];
 	[alert release];

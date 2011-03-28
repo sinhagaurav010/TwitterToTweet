@@ -289,6 +289,8 @@
 																		  token:_accessToken 
 																		  realm: nil
 															  signatureProvider:nil] autorelease];
+    
+    NSLog(@"the req%@",[[theRequest URL] absoluteString]);
     if (method) {
         [theRequest setHTTPMethod:method];
     }

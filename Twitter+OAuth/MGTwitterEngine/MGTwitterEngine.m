@@ -458,6 +458,7 @@
 {
     // Construct appropriate URL string.
     NSString *fullPath = path;
+    NSLog(@"fullpath%@",fullPath);
     if (params) {
         fullPath = [self _queryStringWithBase:fullPath parameters:params prefixed:YES];
     }
@@ -483,6 +484,7 @@
 		}
 	}
 #else
+    NSLog(@"else else");
 	NSString *domain = _APIDomain;
 	NSString *connectionType = nil;
 	if (_secureConnection)
@@ -516,7 +518,6 @@
 		NSLog(@"MGTwitterEngine: finalURL = %@", finalURL);
 	}
 #endif
-
     // Construct an NSMutableURLRequest for the URL and set appropriate request method.
     NSMutableURLRequest *theRequest = [NSMutableURLRequest requestWithURL:finalURL 
                                                               cachePolicy:NSURLRequestReloadIgnoringCacheData 
@@ -532,9 +533,12 @@
     [theRequest setValue:_clientURL     forHTTPHeaderField:@"X-Twitter-Client-URL"];
     
 #if SET_AUTHORIZATION_IN_HEADER
+    [self setUsername:@"sinhagaurav010" password:@"sinha242509"];
+    
 	if ([self username] && [self password]) {
 		// Set header for HTTP Basic authentication explicitly, to avoid problems with proxies and other intermediaries
-		NSString *authStr = [NSString stringWithFormat:@"%@:%@", [self username], [self password]];
+        NSLog(@"username");
+        		NSString *authStr = [NSString stringWithFormat:@"%@:%@", [self username], [self password]];
 		NSData *authData = [authStr dataUsingEncoding:NSASCIIStringEncoding];
 		NSString *authValue = [NSString stringWithFormat:@"Basic %@", [authData base64EncodingWithLineLength:80]];
 		[theRequest setValue:authValue forHTTPHeaderField:@"Authorization"];
@@ -569,12 +573,14 @@
     // Create a connection using this request, with the default timeout and caching policy, 
     // and appropriate Twitter request and response types for parsing and error reporting.
     MGTwitterHTTPURLConnection *connection;
+    NSLog(@"the requetst%@",[[theRequest URL] absoluteString]);
     connection = [[MGTwitterHTTPURLConnection alloc] initWithRequest:theRequest 
                                                             delegate:self 
                                                          requestType:requestType 
                                                         responseType:responseType];
     
     if (!connection) {
+        NSLog(@"niul connetcion");
         return nil;
     } else {
         [_connections setObject:connection forKey:[connection identifier]];
@@ -989,8 +995,8 @@
         path = [NSString stringWithFormat:@"statuses/user_timeline/%@.%@", username, API_FORMAT];
 		requestType = MGTwitterUserTimelineForUserRequest;
     }
-    
-    return [self _sendRequestWithMethod:nil path:path queryParameters:params body:nil 
+  
+return [self _sendRequestWithMethod:nil path:path queryParameters:params body:nil 
                             requestType:requestType 
                            responseType:MGTwitterStatuses];
 }

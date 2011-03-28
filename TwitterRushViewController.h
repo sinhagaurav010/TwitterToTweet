@@ -5,7 +5,7 @@
 // Email:gaurav.sinha@vinsol.com
 #import <UIKit/UIKit.h>
 #import "SA_OAuthTwitterController.h"
-
+#import "TwitterViewController.h"
 @class SA_OAuthTwitterEngine;
 
 @interface TwitterRushViewController : UIViewController < SA_OAuthTwitterControllerDelegate>

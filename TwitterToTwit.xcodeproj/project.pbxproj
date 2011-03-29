@@ -16,8 +16,6 @@
 		DDA23C78133B478500D310A3 /* TwitterRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA23C77133B478500D310A3 /* TwitterRequest.m */; };
 		DDA23C98133B693600D310A3 /* TreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA23C95133B693500D310A3 /* TreeNode.m */; };
 		DDA23C99133B693600D310A3 /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA23C97133B693500D310A3 /* XMLParser.m */; };
-		DDA23CA6133B7AC200D310A3 /* AppRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA23CA3133B7AC200D310A3 /* AppRecord.m */; };
-		DDA23CA7133B7AC200D310A3 /* IconDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA23CA5133B7AC200D310A3 /* IconDownloader.m */; };
 		DDA37E551331DFBA006DFEC6 /* TwitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA37E531331DFBA006DFEC6 /* TwitterViewController.m */; };
 		DDA37E561331DFBA006DFEC6 /* TwitterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDA37E541331DFBA006DFEC6 /* TwitterViewController.xib */; };
 		DDA37E791331E1FD006DFEC6 /* TwitterRushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA37E771331E1FD006DFEC6 /* TwitterRushViewController.m */; };
@@ -60,6 +58,8 @@
 		DDA5300F133CC0E200BC6B16 /* EGOImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA53009133CC0E200BC6B16 /* EGOImageView.m */; };
 		DDA53010133CC0E200BC6B16 /* EGOImageLoadConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA5300C133CC0E200BC6B16 /* EGOImageLoadConnection.m */; };
 		DDA53011133CC0E200BC6B16 /* EGOImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA5300E133CC0E200BC6B16 /* EGOImageLoader.m */; };
+		DDB133271341EF9300E6D77D /* UserTimeLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB133251341EF9200E6D77D /* UserTimeLineViewController.m */; };
+		DDB133281341EF9300E6D77D /* UserTimeLineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDB133261341EF9300E6D77D /* UserTimeLineViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,10 +79,6 @@
 		DDA23C95133B693500D310A3 /* TreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreeNode.m; sourceTree = "<group>"; };
 		DDA23C96133B693500D310A3 /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
 		DDA23C97133B693500D310A3 /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
-		DDA23CA2133B7AC200D310A3 /* AppRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppRecord.h; sourceTree = "<group>"; };
-		DDA23CA3133B7AC200D310A3 /* AppRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppRecord.m; sourceTree = "<group>"; };
-		DDA23CA4133B7AC200D310A3 /* IconDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconDownloader.h; sourceTree = "<group>"; };
-		DDA23CA5133B7AC200D310A3 /* IconDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconDownloader.m; sourceTree = "<group>"; };
 		DDA37E521331DFBA006DFEC6 /* TwitterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterViewController.h; sourceTree = "<group>"; };
 		DDA37E531331DFBA006DFEC6 /* TwitterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterViewController.m; sourceTree = "<group>"; };
 		DDA37E541331DFBA006DFEC6 /* TwitterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TwitterViewController.xib; sourceTree = "<group>"; };
@@ -177,6 +173,9 @@
 		DDA5300C133CC0E200BC6B16 /* EGOImageLoadConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageLoadConnection.m; sourceTree = "<group>"; };
 		DDA5300D133CC0E200BC6B16 /* EGOImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageLoader.h; sourceTree = "<group>"; };
 		DDA5300E133CC0E200BC6B16 /* EGOImageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageLoader.m; sourceTree = "<group>"; };
+		DDB133241341EF9200E6D77D /* UserTimeLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserTimeLineViewController.h; sourceTree = "<group>"; };
+		DDB133251341EF9200E6D77D /* UserTimeLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserTimeLineViewController.m; sourceTree = "<group>"; };
+		DDB133261341EF9300E6D77D /* UserTimeLineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserTimeLineViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,6 +219,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				DDB133291341EF9800E6D77D /* UserTimeLinreViewController */,
 				DDA23CAC133B7DE700D310A3 /* New Group */,
 				DDA37ED51331E4A1006DFEC6 /* TouchJSON */,
 				DDA37E7B1331E405006DFEC6 /* Twitter+OAuth */,
@@ -264,17 +264,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DDA23CA8133B7ACC00D310A3 /* AppRecord */ = {
-			isa = PBXGroup;
-			children = (
-				DDA23CA2133B7AC200D310A3 /* AppRecord.h */,
-				DDA23CA3133B7AC200D310A3 /* AppRecord.m */,
-				DDA23CA4133B7AC200D310A3 /* IconDownloader.h */,
-				DDA23CA5133B7AC200D310A3 /* IconDownloader.m */,
-			);
-			name = AppRecord;
-			sourceTree = "<group>";
-		};
 		DDA23CAC133B7DE700D310A3 /* New Group */ = {
 			isa = PBXGroup;
 			children = (
@@ -289,7 +278,6 @@
 		DDA37E591331DFBD006DFEC6 /* TwitterViweController */ = {
 			isa = PBXGroup;
 			children = (
-				DDA23CA8133B7ACC00D310A3 /* AppRecord */,
 				DDA37E521331DFBA006DFEC6 /* TwitterViewController.h */,
 				DDA37E531331DFBA006DFEC6 /* TwitterViewController.m */,
 				DDA37E541331DFBA006DFEC6 /* TwitterViewController.xib */,
@@ -518,6 +506,16 @@
 			path = EGOImageLoader;
 			sourceTree = "<group>";
 		};
+		DDB133291341EF9800E6D77D /* UserTimeLinreViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DDB133241341EF9200E6D77D /* UserTimeLineViewController.h */,
+				DDB133251341EF9200E6D77D /* UserTimeLineViewController.m */,
+				DDB133261341EF9300E6D77D /* UserTimeLineViewController.xib */,
+			);
+			name = UserTimeLinreViewController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -574,6 +572,7 @@
 				DDA37EB81331E405006DFEC6 /* jQueryInjectLandscape.txt in Resources */,
 				DDA37ECA1331E405006DFEC6 /* twitter_load.png in Resources */,
 				DDA52FE4133C98D600BC6B16 /* Placeholder.png in Resources */,
+				DDB133281341EF9300E6D77D /* UserTimeLineViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -617,13 +616,12 @@
 				DDA23C78133B478500D310A3 /* TwitterRequest.m in Sources */,
 				DDA23C98133B693600D310A3 /* TreeNode.m in Sources */,
 				DDA23C99133B693600D310A3 /* XMLParser.m in Sources */,
-				DDA23CA6133B7AC200D310A3 /* AppRecord.m in Sources */,
-				DDA23CA7133B7AC200D310A3 /* IconDownloader.m in Sources */,
 				DDA52FE7133C98F700BC6B16 /* ExampleCell.m in Sources */,
 				DDA53005133CC08A00BC6B16 /* EGOCache.m in Sources */,
 				DDA5300F133CC0E200BC6B16 /* EGOImageView.m in Sources */,
 				DDA53010133CC0E200BC6B16 /* EGOImageLoadConnection.m in Sources */,
 				DDA53011133CC0E200BC6B16 /* EGOImageLoader.m in Sources */,
+				DDB133271341EF9300E6D77D /* UserTimeLineViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

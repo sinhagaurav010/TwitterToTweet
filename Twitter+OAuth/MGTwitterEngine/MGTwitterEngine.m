@@ -533,14 +533,17 @@
     [theRequest setValue:_clientURL     forHTTPHeaderField:@"X-Twitter-Client-URL"];
     
 #if SET_AUTHORIZATION_IN_HEADER
-    [self setUsername:@"sinhagaurav010" password:@"sinha242509"];
+   // [self setUsername:@"sinhagaurav010" password:@"sinha242509"];
     
 	if ([self username] && [self password]) {
 		// Set header for HTTP Basic authentication explicitly, to avoid problems with proxies and other intermediaries
-        NSLog(@"username");
+        NSLog(@"username%@",[self username]);
+        NSLog(@"password %@",[self password]);
         		NSString *authStr = [NSString stringWithFormat:@"%@:%@", [self username], [self password]];
 		NSData *authData = [authStr dataUsingEncoding:NSASCIIStringEncoding];
 		NSString *authValue = [NSString stringWithFormat:@"Basic %@", [authData base64EncodingWithLineLength:80]];
+        
+        NSLog(@"%@",authValue);
 		[theRequest setValue:authValue forHTTPHeaderField:@"Authorization"];
 	}
 #endif
@@ -573,7 +576,8 @@
     // Create a connection using this request, with the default timeout and caching policy, 
     // and appropriate Twitter request and response types for parsing and error reporting.
     MGTwitterHTTPURLConnection *connection;
-    NSLog(@"the requetst%@",[[theRequest URL] absoluteString]);
+    NSLog(@"the requetst  %@",[[theRequest URL] absoluteString]);
+//    theRequest = [[NSURLRequest alloc]initWithURL:[NSURL URLWithString:@"http://api.twitter.com/1/statuses/user_timeline/sinhagaurav010.xml?count=20"]];
     connection = [[MGTwitterHTTPURLConnection alloc] initWithRequest:theRequest 
                                                             delegate:self 
                                                          requestType:requestType 
@@ -977,6 +981,7 @@
 {
 	NSString *path = [NSString stringWithFormat:@"statuses/user_timeline.%@", API_FORMAT];
     MGTwitterRequestType requestType = MGTwitterUserTimelineRequest;
+    NSLog(@"pathpath%@",path);
     
     NSMutableDictionary *params = [NSMutableDictionary dictionaryWithCapacity:0];
     if (sinceID > 0) {
@@ -1017,7 +1022,6 @@ return [self _sendRequestWithMethod:nil path:path queryParameters:params body:ni
 
 - (NSString *)sendUpdate:(NSString *)status
 {
-	NSLog(@"send update");
     return [self sendUpdate:status inReplyTo:0];
 }
 

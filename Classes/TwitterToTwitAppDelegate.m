@@ -9,6 +9,8 @@
 
 #import "TwitterToTwitAppDelegate.h"
 #import "TwitterRushViewController.h"
+#import "TwitterViewController.h"
+#import "UserTimeLineViewController.h"
 
 @implementation TwitterToTwitAppDelegate
 
@@ -20,10 +22,23 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
-    // Override point for customization after application launch.
-  //  TwitterController = [[TwitterViewController alloc] init];
-	//TwitterRushViewController *TwitterRushController = [[TwitterRushViewController alloc] init];
-//	[navigation.view addSubview:TwitterRushController.view];
+    //  Override point for customization after application launch.
+    //  TwitterController = [[TwitterViewController alloc] init];
+	//  TwitterRushViewController *TwitterRushController = [[TwitterRushViewController alloc] init];
+    //	[navigation.view addSubview:TwitterRushController.view];
+    if ([[NSUserDefaults standardUserDefaults] objectForKey: @"authData2"]) {
+        NSLog(@"in user timeline");
+        UserTimeLineViewController *UserTimeLineController=	[[UserTimeLineViewController alloc]init];
+        navigation							=	[[UINavigationController alloc]initWithRootViewController:UserTimeLineController];
+    }
+    else
+    {
+        TwitterViewController *TwitterController=	[[TwitterViewController alloc]init];
+        navigation	=	[[UINavigationController alloc]initWithRootViewController:TwitterController];
+    
+    }
+   // TwitterViewController *testobj=	[[TwitterViewController alloc]init];
+	//navigation							=	[[UINavigationController alloc]initWithRootViewController:testobj];
 	[window addSubview:navigation.view];
     [self.window makeKeyAndVisible];
     
@@ -80,7 +95,7 @@
 
 
 - (void)dealloc {
-	[TwitterController release];
+	//[TwitterController release];
     [window release];
     [super dealloc];
 }

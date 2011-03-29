@@ -52,9 +52,9 @@
 	tweetTextField.text = msgString;
 	[tweetTextField becomeFirstResponder];
 		
-	if ([[NSUserDefaults standardUserDefaults] objectForKey: @"authData2"]) {
-		NSLog(@"auth%@",[[NSUserDefaults standardUserDefaults] objectForKey: @"authData2"]);
-		UIBarButtonItem *sendButton = [[UIBarButtonItem alloc]initWithTitle:@"Send" style:UIBarButtonItemStyleBordered target:self action:@selector(sendTweet)];
+	if ([[NSUserDefaults standardUserDefaults] objectForKey: @"authData2"]) 
+    {
+        UIBarButtonItem *sendButton = [[UIBarButtonItem alloc]initWithTitle:@"Send" style:UIBarButtonItemStyleBordered target:self action:@selector(sendTweet)];
 		self.navigationItem.rightBarButtonItem = sendButton;
 	}
 	else {
@@ -141,7 +141,6 @@
 	[defaults setObject: data forKey: @"authData2"];
 	[defaults synchronize];
 	
-	NSLog(@"MEssage has been sent");
 	//[self updateTwitter];
 	UIBarButtonItem *sendButton = [[UIBarButtonItem alloc]initWithTitle:@"Send" style:UIBarButtonItemStyleBordered target:self action:@selector(sendTweet)];
 	self.navigationItem.leftBarButtonItem = sendButton;	
@@ -154,15 +153,14 @@
 //=============================================================================================================================
 #pragma mark TwitterEngineDelegate
 - (void) requestSucceeded: (NSString *) requestIdentifier {
-    NSLog(@"NSSteing%@",requestIdentifier);
+   // NSLog(@"NSSteing%@",requestIdentifier);
 	if([spinner isAnimating])
 	[spinner stopAnimating];
-    TwitterViewController *TwitterController = [[TwitterViewController alloc]init];
-    TwitterController._fromTweet = 1;
-    [TwitterController release];
+   
 	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Info" message:@"Succeeded" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
 	[alert show];
 	[alert release];
+    
 	NSLog(@"Request %@ succeeded", requestIdentifier);
 }
 

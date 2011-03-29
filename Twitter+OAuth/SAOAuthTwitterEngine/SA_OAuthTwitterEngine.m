@@ -256,7 +256,7 @@
                         responseType:(MGTwitterResponseType)responseType
 {
     NSString *fullPath = path;
-
+    NSLog(@"fullPathfullPath%@",fullPath);
 	// --------------------------------------------------------------------------------
 	// modificaiton from the base clase
 	// the base class appends parameters here
@@ -290,7 +290,7 @@
 																		  realm: nil
 															  signatureProvider:nil] autorelease];
     
-    NSLog(@"the req%@",[[theRequest URL] absoluteString]);
+    NSLog(@"the req   ---@",[[theRequest URL] absoluteString]);
     if (method) {
         [theRequest setHTTPMethod:method];
     }

@@ -18,16 +18,17 @@
 @synthesize callback;
 @synthesize errorCallback;
 
--(void)friends_timeline:(id)requestDelegate requestSelector:(SEL)requestSelector{
+-(void)friends_timeline:(id)requestDelegate requestSelector:(SEL)requestSelector forUrl:(NSURL*)url{
 	// Set the delegate and selector
 	self.delegate = requestDelegate;
 	self.callback = requestSelector;
 	// The URL of the Twitter Request we intend to send
-	NSURL *url = [NSURL URLWithString:@"http://twitter.com/statuses/public_timeline.xml"];
+	//NSURL *url = [NSURL URLWithString:@"http://twitter.com/statuses/public_timeline.xml"];
 	[self request:url];
 }
 
 -(void)request:(NSURL *) url {
+    NSLog(@"_cmd");
 	theRequest   = [[NSMutableURLRequest alloc] initWithURL:url];
 	theConnection = [[NSURLConnection alloc] initWithRequest:theRequest delegate:self];
 	
@@ -41,12 +42,12 @@
 	}
 }
 
-- (void)connection:(NSURLConnection *)connection didReceiveAuthenticationChallenge:(NSURLAuthenticationChallenge *)challenge {
-	NSLog(@"challenged %@",[challenge proposedCredential] );
+- (void)connection:(NSURLConnection *)connection didReceiveAuthenticationChallenge:(NSURLAuthenticationChallenge *)challenge 
+{
+	NSLog(@"challenged ===%@",[challenge proposedCredential] );
 	
 	if ([challenge previousFailureCount] == 0) {
         NSURLCredential *newCredential;
-        NSLog(@"username--------%@",[self username]);
         newCredential=[NSURLCredential credentialWithUser:[self username]
                                                  password:[self password]
                                               persistence:NSURLCredentialPersistenceNone];
@@ -57,13 +58,13 @@
         [[challenge sender] cancelAuthenticationChallenge:challenge];
         // inform the user that the user name and password
         // in the preferences are incorrect
-		NSLog(@"Invalid Username or Password");
     }
 	
 }
 
 - (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response
 {
+    
     // this method is called when the server has determined that it
     // has enough information to create the NSURLResponse
 	
@@ -77,6 +78,7 @@
 	//NSLog([[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding]);
 	// append the new data to the receivedData
     // receivedData is declared as a method instance elsewhere
+    NSLog(@"recieve");
     [receivedData appendData:data];
 }
 

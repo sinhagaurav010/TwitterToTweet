@@ -38,16 +38,15 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad 
 {
-      [self.navigationItem setTitle:@"Twitter"];
-    // [self timeLineFunction];
+    [self.navigationItem setTitle:@"Twitter"];
     [super viewDidLoad];
 }
 
 -(void)timeLineFunction
 {
     tr = [[TwitterRequest alloc] init];    
-    
-    [tr friends_timeline:self requestSelector:@selector(public_timeline_callback:)];
+    NSURL *url = [NSURL URLWithString:@"http://twitter.com/statuses/public_timeline.xml"];
+    [tr friends_timeline:self requestSelector:@selector(public_timeline_callback:) forUrl:url];
 
 }
 -(void)public_timeline_callback:(NSData *)data

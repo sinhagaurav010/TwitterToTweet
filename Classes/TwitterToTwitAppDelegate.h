@@ -10,8 +10,8 @@
 
 @interface TwitterToTwitAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
-	IBOutlet UINavigationController *navigation;
-	TwitterViewController *TwitterController;
+	 UINavigationController *navigation;
+	//TwitterViewController *TwitterController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;

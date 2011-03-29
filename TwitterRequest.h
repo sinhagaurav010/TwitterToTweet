@@ -27,7 +27,7 @@
 @property(nonatomic) SEL					callback;
 @property(nonatomic) SEL					errorCallback;
 
--(void)friends_timeline:(id)requestDelegate requestSelector:(SEL)requestSelector;
+-(void)friends_timeline:(id)requestDelegate requestSelector:(SEL)requestSelector forUrl:(NSURL*)url;
 -(void)request:(NSURL *) url;
 
 @end

@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* ComiciPad */ = {
+		activeExec = 0;
+		executables = (
+			DDDBACBE12A2415400049DCB /* ComiciPad */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = DDDBACBE12A2415400049DCB /* ComiciPad */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* ComiciPad */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* ComiciPad */,
+		);
+		codeSenseManager = DDDBACCD12A2417400049DCB /* Code sense */;
+		executables = (
+			DDDBACBE12A2415400049DCB /* ComiciPad */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					10,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 320069174;
+			PBXWorkspaceStateSaveDate = 320069174;
+		};
+		perUserProjectItems = {
+			DD62230B1313DD3E0016D25B /* PBXBookmark */ = DD62230B1313DD3E0016D25B /* PBXBookmark */;
+			DD6223531313EAA70016D25B /* PBXTextBookmark */ = DD6223531313EAA70016D25B /* PBXTextBookmark */;
+			DD6223541313EAA70016D25B /* PBXTextBookmark */ = DD6223541313EAA70016D25B /* PBXTextBookmark */;
+			DD62235B1313EAA90016D25B /* PBXTextBookmark */ = DD62235B1313EAA90016D25B /* PBXTextBookmark */;
+			DD83EA4D12AA0DC8007A50DF /* PBXTextBookmark */ = DD83EA4D12AA0DC8007A50DF /* PBXTextBookmark */;
+			DD9FD71C12A90FD5005E3FEC /* PBXTextBookmark */ = DD9FD71C12A90FD5005E3FEC /* PBXTextBookmark */;
+			DD9FD7BC12A91AF3005E3FEC /* PBXTextBookmark */ = DD9FD7BC12A91AF3005E3FEC /* PBXTextBookmark */;
+			DD9FD7BD12A91AF3005E3FEC /* PBXTextBookmark */ = DD9FD7BD12A91AF3005E3FEC /* PBXTextBookmark */;
+			DDDBACCE12A2419F00049DCB /* PBXBookmark */ = DDDBACCE12A2419F00049DCB /* PBXBookmark */;
+			DDDBACCF12A2419F00049DCB /* PBXBookmark */ = DDDBACCF12A2419F00049DCB /* PBXBookmark */;
+		};
+		sourceControlManager = DDDBACCC12A2417400049DCB /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	A78E161C124758C200FE2803 /* MoreViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1440, 3510}}";
+			sepNavSelRange = "{6621, 0}";
+			sepNavVisRange = "{0, 2333}";
+			sepNavWindowFrame = "{{15, 62}, {1313, 811}}";
+		};
+	};
+	A78E16BB124768A200FE2803 /* CastViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1254, 5265}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{6792, 2600}";
+			sepNavWindowFrame = "{{15, 62}, {1313, 811}}";
+		};
+	};
+	A78E172E124774D800FE2803 /* XmlfilefrCast.xml */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {4205, 507}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 2616}";
+		};
+	};
+	A78E18B11247931500FE2803 /* GalleryViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1254, 6526}}";
+			sepNavSelRange = "{6276, 0}";
+			sepNavVisRange = "{5009, 2502}";
+			sepNavWindowFrame = "{{15, 62}, {1313, 811}}";
+		};
+	};
+	A796CA5C1236464D000BD84A /* InsidecomicsViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {243, 598}}";
+			sepNavSelRange = "{382, 34}";
+			sepNavVisRange = "{0, 0}";
+		};
+	};
+	A796CA5D1236464D000BD84A /* InsidecomicsViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1272, 6253}}";
+			sepNavSelRange = "{2835, 137}";
+			sepNavVisRange = "{0, 1223}";
+			sepNavWindowFrame = "{{15, 277}, {835, 596}}";
+		};
+	};
+	A79DD3D31238ED9A00D6A677 /* VideoViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1254, 11401}}";
+			sepNavSelRange = "{1474, 1}";
+			sepNavVisRange = "{27122, 1307}";
+			sepNavWindowFrame = "{{46, 60}, {1313, 811}}";
+		};
+	};
+	A7A784EA124A142100E4A8C0 /* FullImgeViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 2197}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{3964, 870}";
+			sepNavWindowFrame = "{{15, 128}, {582, 745}}";
+		};
+	};
+	A7A78615124A2D2600E4A8C0 /* WallpaperViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1115, 455}}";
+			sepNavSelRange = "{327, 41}";
+			sepNavVisRange = "{0, 441}";
+		};
+	};
+	A7A78616124A2D2600E4A8C0 /* WallpaperViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 3523}}";
+			sepNavSelRange = "{3654, 0}";
+			sepNavVisRange = "{7341, 1099}";
+			sepNavWindowFrame = "{{38, 107}, {582, 745}}";
+		};
+	};
+	A7B16574124B7B7600C819F2 /* xmlFilefrWallpapers.xml */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1115, 455}}";
+			sepNavSelRange = "{171, 0}";
+			sepNavVisRange = "{0, 171}";
+		};
+	};
+	A7B165AF124B885E00C819F2 /* FullImageGalleryViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1237, 2860}}";
+			sepNavSelRange = "{3254, 325}";
+			sepNavVisRange = "{3426, 1406}";
+			sepNavWindowFrame = "{{15, 63}, {750, 815}}";
+		};
+	};
+	A7C393B412351549009D12BC /* ComicViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1405, 2210}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{3883, 566}";
+			sepNavWindowFrame = "{{38, 157}, {1112, 695}}";
+		};
+	};
+	A7C393D7123519E6009D12BC /* ComicissueViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1531, 6305}}";
+			sepNavSelRange = "{10790, 0}";
+			sepNavVisRange = "{0, 0}";
+			sepNavWindowFrame = "{{15, 178}, {1112, 695}}";
+		};
+	};
+	DD62230B1313DD3E0016D25B /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = A7C393D7123519E6009D12BC /* ComicissueViewController.m */;
+	};
+	DD6223531313EAA70016D25B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A796CA5C1236464D000BD84A /* InsidecomicsViewController.h */;
+		name = "InsidecomicsViewController.h: 17";
+		rLen = 34;
+		rLoc = 382;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	DD6223541313EAA70016D25B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A7C393D7123519E6009D12BC /* ComicissueViewController.m */;
+		name = "ComicissueViewController.m: 343";
+		rLen = 0;
+		rLoc = 10790;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	DD62235B1313EAA90016D25B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A7C393D7123519E6009D12BC /* ComicissueViewController.m */;
+		name = "ComicissueViewController.m: 343";
+		rLen = 0;
+		rLoc = 10790;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	DD83EA4D12AA0DC8007A50DF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A7C393B412351549009D12BC /* ComicViewController.m */;
+		name = "ComicViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 957;
+		vrLoc = 2178;
+	};
+	DD9FD71C12A90FD5005E3FEC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A78E172E124774D800FE2803 /* XmlfilefrCast.xml */;
+		name = "XmlfilefrCast.xml: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2616;
+		vrLoc = 0;
+	};
+	DD9FD7BC12A91AF3005E3FEC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A7B16574124B7B7600C819F2 /* xmlFilefrWallpapers.xml */;
+		name = "xmlFilefrWallpapers.xml: 5";
+		rLen = 0;
+		rLoc = 171;
+		rType = 0;
+		vrLen = 171;
+		vrLoc = 0;
+	};
+	DD9FD7BD12A91AF3005E3FEC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A7A78615124A2D2600E4A8C0 /* WallpaperViewController.h */;
+		name = "WallpaperViewController.h: 14";
+		rLen = 41;
+		rLoc = 327;
+		rType = 0;
+		vrLen = 441;
+		vrLoc = 0;
+	};
+	DDDBACBE12A2415400049DCB /* ComiciPad */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = ComiciPad;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	DDDBACCC12A2417400049DCB /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	DDDBACCD12A2417400049DCB /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	DDDBACCE12A2419F00049DCB /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = A78E16FF1247704000FE2803 /* 001mythbdo.jpg */;
+	};
+	DDDBACCF12A2419F00049DCB /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = A7A785F2124A2ACC00E4A8C0 /* Wallpapers.png */;
+	};
+}

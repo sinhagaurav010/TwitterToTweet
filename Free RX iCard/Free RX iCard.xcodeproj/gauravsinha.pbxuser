@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* Free_RX_iCardAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 488}}";
+			sepNavSelRange = "{160, 0}";
+			sepNavVisRange = "{0, 494}";
+		};
+	};
+	1D3623250D0F684500981E51 /* Free_RX_iCardAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1261}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{1214, 1199}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Free RX iCard */ = {
+		activeExec = 0;
+		executables = (
+			DD800D7812BB57130044ED59 /* Free RX iCard */,
+		);
+	};
+	28216C950DB411BC00E5133A /* FirstViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 488}}";
+			sepNavSelRange = "{180, 1}";
+			sepNavVisRange = "{0, 243}";
+		};
+	};
+	28216C960DB411BC00E5133A /* FirstViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 858}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 824}";
+		};
+	};
+	28A0AB4B0D9B1048005BE974 /* Free_RX_iCard_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 488}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 195}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = DD800D7812BB57130044ED59 /* Free RX iCard */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Free RX iCard */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Free RX iCard */,
+		);
+		codeSenseManager = DD800D8F12BB57210044ED59 /* Code sense */;
+		executables = (
+			DD800D7812BB57130044ED59 /* Free RX iCard */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					993,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 317244458;
+			PBXWorkspaceStateSaveDate = 317244458;
+		};
+		perUserProjectItems = {
+			DD89BC0612BCF88300ADB6F2 /* PBXTextBookmark */ = DD89BC0612BCF88300ADB6F2 /* PBXTextBookmark */;
+			DD89BC0712BCF88300ADB6F2 /* PBXTextBookmark */ = DD89BC0712BCF88300ADB6F2 /* PBXTextBookmark */;
+			DD89BC0812BCF88300ADB6F2 /* PBXTextBookmark */ = DD89BC0812BCF88300ADB6F2 /* PBXTextBookmark */;
+			DD89BC0A12BCF88300ADB6F2 /* PBXTextBookmark */ = DD89BC0A12BCF88300ADB6F2 /* PBXTextBookmark */;
+			DD8D7BCC12E8C6EA0000DD3B /* PBXTextBookmark */ = DD8D7BCC12E8C6EA0000DD3B /* PBXTextBookmark */;
+			DD94B87C12BC18FD00B143A0 /* PBXBookmark */ = DD94B87C12BC18FD00B143A0 /* PBXBookmark */;
+			DD94B87D12BC18FD00B143A0 /* PBXBookmark */ = DD94B87D12BC18FD00B143A0 /* PBXBookmark */;
+			DD94B87E12BC18FD00B143A0 /* PBXBookmark */ = DD94B87E12BC18FD00B143A0 /* PBXBookmark */;
+			DD94B87F12BC18FD00B143A0 /* PlistBookmark */ = DD94B87F12BC18FD00B143A0 /* PlistBookmark */;
+			DD94B88112BC18FD00B143A0 /* PBXTextBookmark */ = DD94B88112BC18FD00B143A0 /* PBXTextBookmark */;
+			DD94B88212BC18FD00B143A0 /* PBXTextBookmark */ = DD94B88212BC18FD00B143A0 /* PBXTextBookmark */;
+			DD94B88312BC18FD00B143A0 /* PBXTextBookmark */ = DD94B88312BC18FD00B143A0 /* PBXTextBookmark */;
+			DD94B88412BC18FD00B143A0 /* PBXTextBookmark */ = DD94B88412BC18FD00B143A0 /* PBXTextBookmark */;
+			DD94B88512BC18FD00B143A0 /* PBXTextBookmark */ = DD94B88512BC18FD00B143A0 /* PBXTextBookmark */;
+			DD94B88612BC18FD00B143A0 /* PBXTextBookmark */ = DD94B88612BC18FD00B143A0 /* PBXTextBookmark */;
+			DD94B88712BC18FD00B143A0 /* PBXTextBookmark */ = DD94B88712BC18FD00B143A0 /* PBXTextBookmark */;
+			DD94B88812BC18FD00B143A0 /* PBXTextBookmark */ = DD94B88812BC18FD00B143A0 /* PBXTextBookmark */;
+			DD94B88912BC18FD00B143A0 /* PBXTextBookmark */ = DD94B88912BC18FD00B143A0 /* PBXTextBookmark */;
+			DD94B88A12BC18FD00B143A0 /* PBXTextBookmark */ = DD94B88A12BC18FD00B143A0 /* PBXTextBookmark */;
+		};
+		sourceControlManager = DD800D8E12BB57210044ED59 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 488}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 366}";
+		};
+	};
+	9A98FBD612B86E1500D5439A /* SecondViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 482}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 245}";
+		};
+	};
+	9A98FBD712B86E1500D5439A /* SecondViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 819}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 899}";
+		};
+	};
+	9A98FBD912B86E2100D5439A /* ThirdViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 476}}";
+			sepNavSelRange = "{288, 0}";
+			sepNavVisRange = "{0, 542}";
+		};
+	};
+	9A98FBDA12B86E2100D5439A /* ThirdViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 2613}}";
+			sepNavSelRange = "{1355, 0}";
+			sepNavVisRange = "{1010, 1497}";
+		};
+	};
+	9A98FBDC12B86E2E00D5439A /* FourthViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 488}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 337}";
+		};
+	};
+	9A98FBDD12B86E2E00D5439A /* FourthViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1188, 1105}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{233, 1305}";
+		};
+	};
+	DD800D7812BB57130044ED59 /* Free RX iCard */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Free RX iCard";
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	DD800D8E12BB57210044ED59 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	DD800D8F12BB57210044ED59 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	DD800DA912BB5B240044ED59 /* MyAnnotation.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 488}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 710}";
+		};
+	};
+	DD800DAA12BB5B240044ED59 /* MyAnnotation.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 488}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 529}";
+		};
+	};
+	DD89BC0612BCF88300ADB6F2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9A98FBDA12B86E2100D5439A /* ThirdViewController.m */;
+		name = "ThirdViewController.m: 50";
+		rLen = 0;
+		rLoc = 1355;
+		rType = 0;
+		vrLen = 1497;
+		vrLoc = 1010;
+	};
+	DD89BC0712BCF88300ADB6F2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9A98FBD612B86E1500D5439A /* SecondViewController.h */;
+		name = "SecondViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 245;
+		vrLoc = 0;
+	};
+	DD89BC0812BCF88300ADB6F2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9A98FBD712B86E1500D5439A /* SecondViewController.m */;
+		name = "SecondViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 899;
+		vrLoc = 0;
+	};
+	DD89BC0A12BCF88300ADB6F2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9A98FBD912B86E2100D5439A /* ThirdViewController.h */;
+		name = "ThirdViewController.h: 13";
+		rLen = 215;
+		rLoc = 260;
+		rType = 0;
+		vrLen = 542;
+		vrLoc = 0;
+	};
+	DD8D7BCC12E8C6EA0000DD3B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9A98FBD912B86E2100D5439A /* ThirdViewController.h */;
+		name = "ThirdViewController.h: 13";
+		rLen = 0;
+		rLoc = 288;
+		rType = 0;
+		vrLen = 542;
+		vrLoc = 0;
+	};
+	DD94B87C12BC18FD00B143A0 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 9AB5DFA612BA7CA800490BAC /* cardicon.png */;
+	};
+	DD94B87D12BC18FD00B143A0 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 9AB5DFA712BA7CA800490BAC /* cardicon@2x.png */;
+	};
+	DD94B87E12BC18FD00B143A0 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 9AB5DFA812BA7CA800490BAC /* friendicon.png */;
+	};
+	DD94B87F12BC18FD00B143A0 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Free_RX_iCard-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/gauravsinha/Downloads/Free RX iCard/Free_RX_iCard-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	DD94B88112BC18FD00B143A0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DD800DA912BB5B240044ED59 /* MyAnnotation.h */;
+		name = "MyAnnotation.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 710;
+		vrLoc = 0;
+	};
+	DD94B88212BC18FD00B143A0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DD800DAA12BB5B240044ED59 /* MyAnnotation.m */;
+		name = "MyAnnotation.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 529;
+		vrLoc = 0;
+	};
+	DD94B88312BC18FD00B143A0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9A98FBDC12B86E2E00D5439A /* FourthViewController.h */;
+		name = "FourthViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 337;
+		vrLoc = 0;
+	};
+	DD94B88412BC18FD00B143A0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9A98FBDD12B86E2E00D5439A /* FourthViewController.m */;
+		name = "FourthViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1305;
+		vrLoc = 233;
+	};
+	DD94B88512BC18FD00B143A0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 366;
+		vrLoc = 0;
+	};
+	DD94B88612BC18FD00B143A0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28A0AB4B0D9B1048005BE974 /* Free_RX_iCard_Prefix.pch */;
+		name = "Free_RX_iCard_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 195;
+		vrLoc = 0;
+	};
+	DD94B88712BC18FD00B143A0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* Free_RX_iCardAppDelegate.m */;
+		name = "Free_RX_iCardAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1199;
+		vrLoc = 1214;
+	};
+	DD94B88812BC18FD00B143A0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* Free_RX_iCardAppDelegate.h */;
+		name = "Free_RX_iCardAppDelegate.h: 8";
+		rLen = 0;
+		rLoc = 160;
+		rType = 0;
+		vrLen = 494;
+		vrLoc = 0;
+	};
+	DD94B88912BC18FD00B143A0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28216C960DB411BC00E5133A /* FirstViewController.m */;
+		name = "FirstViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 824;
+		vrLoc = 0;
+	};
+	DD94B88A12BC18FD00B143A0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28216C950DB411BC00E5133A /* FirstViewController.h */;
+		name = "FirstViewController.h: 10";
+		rLen = 1;
+		rLoc = 180;
+		rType = 0;
+		vrLen = 243;
+		vrLoc = 0;
+	};
+}

@@ -1,0 +1,247 @@
+// !$*UTF8*$!
+{
+	0872B760126CCC920007EBC3 /* ComiciPad */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = ComiciPad;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	0872B77D126CCCFE0007EBC3 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	0872B77E126CCCFE0007EBC3 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	08CF98211274C23900135798 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A796CA5C1236464D000BD84A /* InsidecomicsViewController.h */;
+		name = "InsidecomicsViewController.h: 7";
+		rLen = 0;
+		rLoc = 159;
+		rType = 0;
+		vrLen = 580;
+		vrLoc = 0;
+	};
+	08CF98221274C23900135798 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A796CA5D1236464D000BD84A /* InsidecomicsViewController.m */;
+		name = "InsidecomicsViewController.m: 209";
+		rLen = 0;
+		rLoc = 6942;
+		rType = 0;
+		vrLen = 817;
+		vrLoc = 6150;
+	};
+	08CF98231274C23900135798 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A7C393D6123519E6009D12BC /* ComicissueViewController.h */;
+		name = "ComicissueViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 616;
+		vrLoc = 0;
+	};
+	08CF98241274C23900135798 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A7C393D7123519E6009D12BC /* ComicissueViewController.m */;
+		name = "ComicissueViewController.m: 162";
+		rLen = 0;
+		rLoc = 4643;
+		rType = 0;
+		vrLen = 918;
+		vrLoc = 4639;
+	};
+	08CF98251274C23900135798 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A79DD3D31238ED9A00D6A677 /* VideoViewController.m */;
+		name = "VideoViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 680;
+		vrLoc = 0;
+	};
+	08CF98261274C23900135798 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A79DD3D31238ED9A00D6A677 /* VideoViewController.m */;
+		name = "VideoViewController.m: 196";
+		rLen = 95;
+		rLoc = 6004;
+		rType = 0;
+		vrLen = 1047;
+		vrLoc = 5366;
+	};
+	08D401FA1272C54100C11001 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ComiciPadAppDelegate.m */;
+		name = "ComiciPadAppDelegate.m: 63";
+		rLen = 0;
+		rLoc = 1736;
+		rType = 0;
+		vrLen = 749;
+		vrLoc = 1062;
+	};
+	08FB793D126D8BE8008F67EB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A796C922123616D7000BD84A /* Global.h */;
+		name = "Global.h: 5";
+		rLen = 0;
+		rLoc = 60;
+		rType = 0;
+		vrLen = 773;
+		vrLoc = 0;
+	};
+	08FB793E126D8BE8008F67EB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ComiciPadAppDelegate.h */;
+		name = "ComiciPadAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 375;
+		vrLoc = 0;
+	};
+	1D3623240D0F684500981E51 /* ComiciPadAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 359}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 375}";
+		};
+	};
+	1D3623250D0F684500981E51 /* ComiciPadAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1274}}";
+			sepNavSelRange = "{1736, 0}";
+			sepNavVisRange = "{1062, 749}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* ComiciPad */ = {
+		activeExec = 0;
+		executables = (
+			0872B760126CCC920007EBC3 /* ComiciPad */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 0872B760126CCC920007EBC3 /* ComiciPad */;
+		activeSDKPreference = iphonesimulator3.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* ComiciPad */;
+		codeSenseManager = 0872B77E126CCCFE0007EBC3 /* Code sense */;
+		executables = (
+			0872B760126CCC920007EBC3 /* ComiciPad */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					833,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 309686783;
+			PBXWorkspaceStateSaveDate = 309686783;
+		};
+		perUserProjectItems = {
+			08CF98211274C23900135798 = 08CF98211274C23900135798 /* PBXTextBookmark */;
+			08CF98221274C23900135798 = 08CF98221274C23900135798 /* PBXTextBookmark */;
+			08CF98231274C23900135798 = 08CF98231274C23900135798 /* PBXTextBookmark */;
+			08CF98241274C23900135798 = 08CF98241274C23900135798 /* PBXTextBookmark */;
+			08CF98251274C23900135798 = 08CF98251274C23900135798 /* PBXTextBookmark */;
+			08CF98261274C23900135798 = 08CF98261274C23900135798 /* PBXTextBookmark */;
+			08D401FA1272C54100C11001 = 08D401FA1272C54100C11001 /* PBXTextBookmark */;
+			08FB793D126D8BE8008F67EB = 08FB793D126D8BE8008F67EB /* PBXTextBookmark */;
+			08FB793E126D8BE8008F67EB = 08FB793E126D8BE8008F67EB /* PBXTextBookmark */;
+		};
+		sourceControlManager = 0872B77D126CCCFE0007EBC3 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	A796C922123616D7000BD84A /* Global.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 624}}";
+			sepNavSelRange = "{60, 0}";
+			sepNavVisRange = "{0, 773}";
+		};
+	};
+	A796CA5C1236464D000BD84A /* InsidecomicsViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 585}}";
+			sepNavSelRange = "{159, 0}";
+			sepNavVisRange = "{0, 580}";
+		};
+	};
+	A796CA5D1236464D000BD84A /* InsidecomicsViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1202, 5902}}";
+			sepNavSelRange = "{6942, 0}";
+			sepNavVisRange = "{6150, 817}";
+		};
+	};
+	A79DD3D31238ED9A00D6A677 /* VideoViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1230, 11830}}";
+			sepNavSelRange = "{6004, 95}";
+			sepNavVisRange = "{5366, 1047}";
+		};
+	};
+	A7C393D6123519E6009D12BC /* ComicissueViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 345}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 616}";
+			sepNavWindowFrame = "{{15, 215}, {750, 558}}";
+		};
+	};
+	A7C393D7123519E6009D12BC /* ComicissueViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1174, 5837}}";
+			sepNavSelRange = "{4643, 0}";
+			sepNavVisRange = "{4639, 918}";
+		};
+	};
+}

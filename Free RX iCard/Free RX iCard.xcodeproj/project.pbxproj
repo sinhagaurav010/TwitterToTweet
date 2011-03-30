@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* Free_RX_iCardAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* Free_RX_iCardAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		28216C970DB411BC00E5133A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28216C960DB411BC00E5133A /* FirstViewController.m */; };
+		2840D7CE1179279E00D7F93C /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2840D7CD1179279E00D7F93C /* FirstView.xib */; };
+		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
+		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
+		9A98FBC312B86C8300D5439A /* card.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A98FBC212B86C8300D5439A /* card.png */; };
+		9A98FBD312B86DD200D5439A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A98FBD212B86DD200D5439A /* MapKit.framework */; };
+		9A98FBD812B86E1500D5439A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A98FBD712B86E1500D5439A /* SecondViewController.m */; };
+		9A98FBDB12B86E2100D5439A /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A98FBDA12B86E2100D5439A /* ThirdViewController.m */; };
+		9A98FBDE12B86E2E00D5439A /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A98FBDD12B86E2E00D5439A /* FourthViewController.m */; };
+		9A98FCAA12B8794100D5439A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A98FCA912B8794100D5439A /* MessageUI.framework */; };
+		9AB5DFAE12BA7CA800490BAC /* cardicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AB5DFA612BA7CA800490BAC /* cardicon.png */; };
+		9AB5DFAF12BA7CA800490BAC /* cardicon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AB5DFA712BA7CA800490BAC /* cardicon@2x.png */; };
+		9AB5DFB012BA7CA800490BAC /* friendicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AB5DFA812BA7CA800490BAC /* friendicon.png */; };
+		9AB5DFB112BA7CA800490BAC /* friendicon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AB5DFA912BA7CA800490BAC /* friendicon@2x.png */; };
+		9AB5DFB212BA7CA800490BAC /* howicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AB5DFAA12BA7CA800490BAC /* howicon.png */; };
+		9AB5DFB312BA7CA800490BAC /* howicon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AB5DFAB12BA7CA800490BAC /* howicon@2x.png */; };
+		9AB5DFB412BA7CA800490BAC /* radaricon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AB5DFAC12BA7CA800490BAC /* radaricon.png */; };
+		9AB5DFB512BA7CA800490BAC /* radaricon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AB5DFAD12BA7CA800490BAC /* radaricon@2x.png */; };
+		9AB5DFBE12BA7DA700490BAC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AB5DFBC12BA7DA700490BAC /* Default.png */; };
+		9AB5DFBF12BA7DA700490BAC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AB5DFBD12BA7DA700490BAC /* Default@2x.png */; };
+		9AB5DFC112BA7DB600490BAC /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AB5DFC012BA7DB600490BAC /* icon.png */; };
+		9AB5DFC712BA7E4A00490BAC /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AB5DFC612BA7E4A00490BAC /* icon@2x.png */; };
+		9AB5DFCB12BA805700490BAC /* instructions.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AB5DFCA12BA805700490BAC /* instructions.png */; };
+		9AB5DFE012BA843A00490BAC /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AB5DFDE12BA843A00490BAC /* bg.png */; };
+		9AB5DFE112BA843A00490BAC /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AB5DFDF12BA843A00490BAC /* button.png */; };
+		DD800DAB12BB5B240044ED59 /* MyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = DD800DAA12BB5B240044ED59 /* MyAnnotation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* Free_RX_iCardAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Free_RX_iCardAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* Free_RX_iCardAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Free_RX_iCardAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Free RX iCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Free RX iCard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28216C950DB411BC00E5133A /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		28216C960DB411BC00E5133A /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		2840D7CD1179279E00D7F93C /* FirstView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstView.xib; sourceTree = "<group>"; };
+		288765070DF74369002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AB4B0D9B1048005BE974 /* Free_RX_iCard_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Free_RX_iCard_Prefix.pch; sourceTree = "<group>"; };
+		28AD73870D9D96C1002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Free_RX_iCard-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Free_RX_iCard-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		9A98FBC212B86C8300D5439A /* card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card.png; sourceTree = "<group>"; };
+		9A98FBD212B86DD200D5439A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		9A98FBD612B86E1500D5439A /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		9A98FBD712B86E1500D5439A /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		9A98FBD912B86E2100D5439A /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		9A98FBDA12B86E2100D5439A /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		9A98FBDC12B86E2E00D5439A /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		9A98FBDD12B86E2E00D5439A /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		9A98FCA912B8794100D5439A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		9A98FCFA12B8843200D5439A /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		9AB5DFA612BA7CA800490BAC /* cardicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cardicon.png; sourceTree = "<group>"; };
+		9AB5DFA712BA7CA800490BAC /* cardicon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cardicon@2x.png"; sourceTree = "<group>"; };
+		9AB5DFA812BA7CA800490BAC /* friendicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = friendicon.png; sourceTree = "<group>"; };
+		9AB5DFA912BA7CA800490BAC /* friendicon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "friendicon@2x.png"; sourceTree = "<group>"; };
+		9AB5DFAA12BA7CA800490BAC /* howicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = howicon.png; sourceTree = "<group>"; };
+		9AB5DFAB12BA7CA800490BAC /* howicon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "howicon@2x.png"; sourceTree = "<group>"; };
+		9AB5DFAC12BA7CA800490BAC /* radaricon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radaricon.png; sourceTree = "<group>"; };
+		9AB5DFAD12BA7CA800490BAC /* radaricon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radaricon@2x.png"; sourceTree = "<group>"; };
+		9AB5DFBC12BA7DA700490BAC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9AB5DFBD12BA7DA700490BAC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9AB5DFC012BA7DB600490BAC /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		9AB5DFC612BA7E4A00490BAC /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		9AB5DFCA12BA805700490BAC /* instructions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instructions.png; sourceTree = "<group>"; };
+		9AB5DFDE12BA843A00490BAC /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		9AB5DFDF12BA843A00490BAC /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		DD800DA912BB5B240044ED59 /* MyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAnnotation.h; sourceTree = "<group>"; };
+		DD800DAA12BB5B240044ED59 /* MyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAnnotation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */,
+				9A98FBD312B86DD200D5439A /* MapKit.framework in Frameworks */,
+				9A98FCAA12B8794100D5439A /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				28216C950DB411BC00E5133A /* FirstViewController.h */,
+				28216C960DB411BC00E5133A /* FirstViewController.m */,
+				1D3623240D0F684500981E51 /* Free_RX_iCardAppDelegate.h */,
+				1D3623250D0F684500981E51 /* Free_RX_iCardAppDelegate.m */,
+				9A98FBD612B86E1500D5439A /* SecondViewController.h */,
+				9A98FBD712B86E1500D5439A /* SecondViewController.m */,
+				9A98FBD912B86E2100D5439A /* ThirdViewController.h */,
+				DD800DA912BB5B240044ED59 /* MyAnnotation.h */,
+				DD800DAA12BB5B240044ED59 /* MyAnnotation.m */,
+				9A98FBDA12B86E2100D5439A /* ThirdViewController.m */,
+				9A98FBDC12B86E2E00D5439A /* FourthViewController.h */,
+				9A98FBDD12B86E2E00D5439A /* FourthViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Free RX iCard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Free RX iCard */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				9A98FCFA12B8843200D5439A /* Entitlements.plist */,
+			);
+			name = "Free RX iCard";
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AB4B0D9B1048005BE974 /* Free_RX_iCard_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9AB5DFA612BA7CA800490BAC /* cardicon.png */,
+				9AB5DFA712BA7CA800490BAC /* cardicon@2x.png */,
+				9AB5DFA812BA7CA800490BAC /* friendicon.png */,
+				9AB5DFA912BA7CA800490BAC /* friendicon@2x.png */,
+				9AB5DFAA12BA7CA800490BAC /* howicon.png */,
+				9AB5DFAB12BA7CA800490BAC /* howicon@2x.png */,
+				9AB5DFDE12BA843A00490BAC /* bg.png */,
+				9AB5DFDF12BA843A00490BAC /* button.png */,
+				9AB5DFAC12BA7CA800490BAC /* radaricon.png */,
+				9AB5DFBC12BA7DA700490BAC /* Default.png */,
+				9AB5DFC612BA7E4A00490BAC /* icon@2x.png */,
+				9AB5DFC012BA7DB600490BAC /* icon.png */,
+				9AB5DFBD12BA7DA700490BAC /* Default@2x.png */,
+				9AB5DFAD12BA7CA800490BAC /* radaricon@2x.png */,
+				9AB5DFCA12BA805700490BAC /* instructions.png */,
+				9A98FBC212B86C8300D5439A /* card.png */,
+				2840D7CD1179279E00D7F93C /* FirstView.xib */,
+				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Free_RX_iCard-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765070DF74369002DB57D /* CoreGraphics.framework */,
+				9A98FBD212B86DD200D5439A /* MapKit.framework */,
+				9A98FCA912B8794100D5439A /* MessageUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Free RX iCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Free RX iCard" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Free RX iCard";
+			productName = "Free RX iCard";
+			productReference = 1D6058910D05DD3D006BFB54 /* Free RX iCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Free RX iCard" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Free RX iCard */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Free RX iCard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */,
+				2840D7CE1179279E00D7F93C /* FirstView.xib in Resources */,
+				9A98FBC312B86C8300D5439A /* card.png in Resources */,
+				9AB5DFAE12BA7CA800490BAC /* cardicon.png in Resources */,
+				9AB5DFAF12BA7CA800490BAC /* cardicon@2x.png in Resources */,
+				9AB5DFB012BA7CA800490BAC /* friendicon.png in Resources */,
+				9AB5DFB112BA7CA800490BAC /* friendicon@2x.png in Resources */,
+				9AB5DFB212BA7CA800490BAC /* howicon.png in Resources */,
+				9AB5DFB312BA7CA800490BAC /* howicon@2x.png in Resources */,
+				9AB5DFB412BA7CA800490BAC /* radaricon.png in Resources */,
+				9AB5DFB512BA7CA800490BAC /* radaricon@2x.png in Resources */,
+				9AB5DFBE12BA7DA700490BAC /* Default.png in Resources */,
+				9AB5DFBF12BA7DA700490BAC /* Default@2x.png in Resources */,
+				9AB5DFC112BA7DB600490BAC /* icon.png in Resources */,
+				9AB5DFC712BA7E4A00490BAC /* icon@2x.png in Resources */,
+				9AB5DFCB12BA805700490BAC /* instructions.png in Resources */,
+				9AB5DFE012BA843A00490BAC /* bg.png in Resources */,
+				9AB5DFE112BA843A00490BAC /* button.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* Free_RX_iCardAppDelegate.m in Sources */,
+				28216C970DB411BC00E5133A /* FirstViewController.m in Sources */,
+				9A98FBD812B86E1500D5439A /* SecondViewController.m in Sources */,
+				9A98FBDB12B86E2100D5439A /* ThirdViewController.m in Sources */,
+				9A98FBDE12B86E2E00D5439A /* FourthViewController.m in Sources */,
+				DD800DAB12BB5B240044ED59 /* MyAnnotation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "~/Desktop/Free RX iCard/Entitlements.plist";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Free_RX_iCard_Prefix.pch;
+				INFOPLIST_FILE = "Free_RX_iCard-Info.plist";
+				PRODUCT_NAME = "Free RX iCard";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "~/Desktop/Free RX iCard/Entitlements.plist";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Free_RX_iCard_Prefix.pch;
+				INFOPLIST_FILE = "Free_RX_iCard-Info.plist";
+				PRODUCT_NAME = "Free RX iCard";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A98FCF512B8834700D5439A /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		9A98FCF612B8834700D5439A /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "~/Desktop/Free RX iCard/Entitlements.plist";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Free_RX_iCard_Prefix.pch;
+				INFOPLIST_FILE = "Free_RX_iCard-Info.plist";
+				PRODUCT_NAME = "Free RX iCard";
+				PROVISIONING_PROFILE = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Free RX iCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				9A98FCF612B8834700D5439A /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Free RX iCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				9A98FCF512B8834700D5439A /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
